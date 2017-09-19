@@ -1,0 +1,118 @@
+body{
+    padding: 0; 
+    margin: 0; 
+    font: 8pt "Verdana", "Tahoma", sans-serif; 
+    background: url('./images/background.png');
+}
+
+.banner{
+    height: 50px; 
+    width: 100%; 
+    text-align: center; 
+    background: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000") repeat-x;
+}
+
+header h1{
+    font: 24pt bold "Tahoma", "Verdana", sans-serif;
+    text-align: center; 
+}
+
+.main{
+    width: 800px; 
+    margin: 0 auto; 
+    border: 4px solid gray; 
+    overflow: hidden; 
+}
+
+.left{
+    float: left; 
+    width: 550px; 
+    box-sizing: border-box; 
+}
+
+.right{
+    float: right; 
+    width: 250px; 
+    font-size: 8pt; 
+    font-family: Arial, sans-serif;
+    background-color: #A2B964;
+    box-sizing: border-box; 
+}
+
+.left-top-banner{
+    height: 83px; 
+    background: url('./images/rottenbackground.png') repeat-x; 
+    vertical-align: 50px; 
+}
+
+.left-top-banner img{
+    vertical-align: top; 
+}
+
+.left-top-banner .rate-text{
+    font: 48pt bold; 
+    color: red; 
+}
+
+.left-top-banner .total-review-text{
+    font: 8pt; 
+    color: white; 
+}
+
+.left .left-first-col, 
+.left .left-second-col{
+    width: 47%; 
+    margin: 2%; 
+    float: left; 
+}
+
+.left .left-second-col{
+    margin-left: 0; 
+}
+
+.left .quote-text{
+    font: 8pt bold; 
+    padding: 8px; 
+    border: 2 grey solid; 
+    background-color:  #E1D697
+}
+
+.left .img-before-text{
+    float: left; 
+    margin-right: 5px; 
+    vertical-align: top;
+}
+
+.left .quote-writer{
+    margin-bottom: 3em; 
+}
+
+.right dl{
+    padding: 0 10px; 
+}
+.right dd{
+    margin-bottom: 1em; 
+}
+
+.bottom{
+    clear: both; 
+    background-color: #A2B964;
+    text-align: center; 
+    padding: 5px;
+    margin: 0;  
+}
+
+.validator-html-css{
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+}
+.validator-html-css a{
+    text-decoration: none; 
+    border: none; 
+}
+
+
+
+
+
