@@ -50,7 +50,8 @@ header h1{
 }
 
 .left-top-banner .rate-text{
-    font: 48pt bold; 
+    font-size: 48pt;
+    font-weight: bold; 
     color: red; 
 }
 
@@ -73,7 +74,7 @@ header h1{
 .left .quote-text{
     font: 8pt bold; 
     padding: 8px; 
-    border: 2 grey solid; 
+    border: 2px grey solid; 
     background-color:  #E1D697
 }
 
@@ -85,6 +86,7 @@ header h1{
 
 .left .quote-writer{
     margin-bottom: 3em; 
+    font-style: italic; 
 }
 
 .right dl{
